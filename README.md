@@ -8,6 +8,8 @@ Official implementation of **"Monocular Avatar Reconstruction via Cascaded Diffu
 
 MARCUS reconstructs high-fidelity, relightable 3D face avatars from a single in-the-wild portrait image. The released inference code generates UV-space PBR assets and exportable 3D avatar files from either a single image or a folder of images.
 
+![MARCUS-Avatar teaser](assets/teaser.png)
+
 ## Installation
 
 ### Option 1: pip / conda
