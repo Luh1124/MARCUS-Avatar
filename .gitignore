@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+tmp/
+temp/
+*.tmp
+
+# Model weights and large assets (download separately)
+ckpts/
+assets/topo/
+topo_assets/
+weights/
+*.pth
+*.safetensors
+*.pt
+*.ckpt
+*.task
+*.pb
+
+# Generated outputs
+outputs/
+results/
+cache/
+longcat_image/render/test_render/
+tmp_cache/
+tmp_materials/
+my_custom_temp_dir/
+*.exr
+
+# Data
+*.zip
+*.tar
+*.tar.gz
+
+# Local migration / cluster helper scripts
+batch_process_models.sh
+batch_process_video_frames.sh
+run_batchinfer.sh
+run_openlrm_hiface_batch.sh
+split_images_to_batches.py
+
+# Local evaluation utilities (not required for inference release)
+scripts/
+compute_metrics.py
+face_id_similarity.py
+
+# Local maintenance / experimental utilities (not required for inference release)
+test_hat_sr.py
+upload_to_hf.py
+mesh_render.py
+multiframe_obj_blend.py
